@@ -1,9 +1,9 @@
-from account import Account
+from account_models.driver import Driver
 
 class Car:
     id = int
     license = str
-    driver = Account
+    driver = Driver
     passengers = int
     
     def __init__(self, license, driver):

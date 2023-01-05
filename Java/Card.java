@@ -1,5 +1,4 @@
 import java.sql.Date;
-import java.text.DateFormat;
 class Card extends Payment{
     String cardNumber;
     int cvv;
