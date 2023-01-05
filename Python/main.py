@@ -1,4 +1,4 @@
-from uberX import UberX
+from uber_Models.uberX import UberX
 from account import Account
 
 if __name__ == "__main__":
